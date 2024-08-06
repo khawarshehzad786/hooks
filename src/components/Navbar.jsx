@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   const NavItems = [
@@ -62,10 +62,10 @@ export const Navbar = () => {
       <ul className={open ? "MenuItems active" : "MenuItems"}>
         {NavItems.map((Item, index) => (
           <li key={index}>
-            <a href ={Item.url} className={Item.cName}>
+            <Link to={Item.url} className={Item.cName}>
               <i className={Item.icon}></i>
               {Item.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
