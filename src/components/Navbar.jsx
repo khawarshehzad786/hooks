@@ -22,13 +22,13 @@ export const Navbar = () => {
       cName: "nav-links"
     },
     {
-      title: "Contact",
-      url: "#",
+      title: "ClearUp",
+      url: "clearup",
       icon: "fa-solid fa-address-book",
       cName: "nav-links"
     },
     {
-      title: "UseEffect",
+      title: "Title Update",
       url: "/useeffect",
       icon: "fa-solid fa-briefcase",
       cName: "nav-links"
