@@ -10,6 +10,7 @@ const App = () => {
      <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}>
+        <Route index element={<HomePage />} />
           <Route path="/state" element={<UseStateHook />} />
            <Route path="/registerpage" element={<UseStateObject />} />       
         </Route>
