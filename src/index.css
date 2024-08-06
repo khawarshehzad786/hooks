@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body{
+  background-color: black;
+  padding: 5rem;
+  color: antiquewhite;
+}
+
 .App {
   margin: 0;
   padding: 0;
